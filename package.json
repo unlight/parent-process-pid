@@ -1,6 +1,6 @@
 {
   "name": "parent-process-pid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gets parent process pid (PPID).",
   "main": "index.js",
   "dependencies": {
