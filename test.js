@@ -38,13 +38,3 @@ test("pstree garbage", t => {
 	var result = p.parse("bash1701 node1964 node1965", childPid);
 	t.falsy(result);
 });
-
-// test.only("pstree oak", t => {
-// 	var childPid = 2838;
-// 	var result = p.parse(`               │                                        └─{vfs-worker {"pi}(2606)
-//                └─tmux(725)─┬─bash(726)───bash(729)───pstree(2839)
-//                            └─bash(1502)───bash(1701)───node(1964)─┬─{node}(1965)
-//                                                                   └─{node}(2838)`, childPid);
-// 	console.log('result ' , result);
-// 	t.is(result, 1964);
-// });
