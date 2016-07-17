@@ -16,7 +16,7 @@ module.exports = function(childPid) {
 	return new Promise((resolve, reject) => {
 		exec(cmd, (err, stdout, stderr) => {
 			if (err) return reject(err);
-			var result = platform.parse(stdout);
+			var result = platform.parse(stdout, childPid);
 			resolve(result);
 		});
 	});
