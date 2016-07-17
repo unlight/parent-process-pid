@@ -1,0 +1,32 @@
+{
+  "name": "parent-process-pid",
+  "version": "1.0.0",
+  "description": "Gets parent process pid (PPID).",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.trim": "^4.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlight/parent-process-pid.git"
+  },
+  "keywords": [
+    "process",
+    "ppid",
+    "pid",
+    "child",
+    "process",
+    "process",
+    "id"
+  ],
+  "author": "S",
+  "license": "Xnet",
+  "bugs": {
+    "url": "https://github.com/unlight/parent-process-pid/issues"
+  },
+  "homepage": "https://github.com/unlight/parent-process-pid#readme"
+}
