@@ -1,4 +1,6 @@
 # parent-process-pid
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/unlight/parent-process-pid.svg)](https://greenkeeper.io/)
 Gets parent process id (PPID)
 
 ## API
